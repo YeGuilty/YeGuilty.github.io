@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+@keyframes exa {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Cinzel Decorative',cursive}
+
+body{
+	display: flex;
+	/* align-items:center; */
+	/* align-items:initial; */
+	justify-content:center;
+	min-height:100vh;
+	background:#000000;
+	color: white;
+	text-align: center;
+}
+
+
+
+#mainH {
+  font-size: 5vw;
+  margin:0;
+  padding: 2em 0em;
+  animation-name: exa;
+  animation-duration: 3s;
+}
+
+#mainH h6{
+  color: rgba(255,255,255,0.7);
+}
+
+.cards {
+  padding-top: 4em;
+  animation-name: exa;
+  animation-duration: 5s;
+}
+
+.cards h2 {
+  font-size: 4vw;
+  padding-bottom: 1.5em;
+}
+
+.cards h3 {
+  font-size: 2vw;
+  padding: 2em 0;
+}
+
+.promoImgs{
+  min-width: 10vw;
+  width: 40vw;
+  max-width: 45vw;
+}
+
+.amazon img{
+  padding-top: 1.5em;
+  width: 20vw;
+}
+
+.amazon a div {
+  color: white;
+  font-size: 4vw;
+  text-decoration: underline;
+  padding-top: 1.5em;
+}
+
+.amazon a:visited{
+  color: white;
+}
+
+.amazon a:link{
+  color: white;
+}
+
+.social {
+  width: 6vw;
+}
+
+
+
+
+
