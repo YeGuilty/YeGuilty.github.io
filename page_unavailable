@@ -1,1 +1,33 @@
-asd
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Writer - Jon Tolentino</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="content">
+      
+        <div id="mainH">
+          <h1>This Page Is Unavailable</h1>
+          <h6>Nothing to see here.</h6>
+        </div>
+        
+       </div><!-- End content -->
+        
+      <br>
+      <div class="footer">
+        Copyright © 2022 Jon Tolentino
+      </div>
+      <br><br>
+    </div> <!-- End container -->
+    <!--
+	<script src="index.js"></script> -->
+  </body>
+
+</html>
