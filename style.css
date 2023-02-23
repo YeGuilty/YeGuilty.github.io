@@ -43,7 +43,7 @@ ul {
 
 #Text {
   color: white;
-  font-size: 3em;
+  font-size: 7vw;
   opacity: 0.75;
   transition: 0.3s;
   
@@ -52,7 +52,7 @@ ul {
 #Text:hover {
   color: red;
   font-weight: bolder;
-  font-size: 3.15em;
+  font-size: 8vw;
   opacity: 1;
 }
 
@@ -197,6 +197,27 @@ ul {
 .armsArmor {
   font-size: 3vw;
 }
+
+#mainH {
+  font-size: 3vw;
+  margin:0;
+  padding: 2em 0em;
+  animation-name: exa;
+  animation-duration: 3s;
+}
+
+#Text {
+  color: white;
+  font-size: 4vw;
+  opacity: 0.75;
+  transition: 0.3s;
+}
+
+#Text:hover {
+  font-weight: bolder;
+  font-size: 5vw;
+  opacity: 1;
+}
 	
   #dirList li{
   font-size: 3vw;
@@ -223,4 +244,3 @@ ul {
 }
 
 }
-
