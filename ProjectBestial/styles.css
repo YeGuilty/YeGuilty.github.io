@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+@keyframes exa {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Cinzel Decorative',cursive}
+
+body{
+	display: flex;
+	/* align-items:center; */
+	/* align-items:initial; */
+	justify-content:center;
+	min-height:100vh;
+	background:#000000;
+	color: white;
+	text-align: center;
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+} 
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+#mainH {
+  font-size: 5vw;
+  margin:0;
+  padding: 2em 0em;
+  animation-name: exa;
+  animation-duration: 3s;
+}
+
+#mainH h6{
+  color: rgba(255,255,255,0.7);
+}
+
+#Text {
+  color: white;
+  font-size: 3em;
+  opacity: 0.75;
+  transition: 0.3s;
+  
+}
+
+#Text:hover {
+  color: red;
+  font-weight: bolder;
+  font-size: 3.15em;
+  opacity: 1;
+}
+
+.cards {
+  padding-top: 4em;
+  animation-name: exa;
+  animation-duration: 5s;
+}
+
+.cards h2 {
+  font-size: 6vw;
+  padding-bottom: 1.5em;
+}
+
+.cards h3 {
+  font-size: 4vw;
+  padding: 2em 0;
+}
+
+.promoImgs{
+  min-width: 10vw;
+  width: 40vw;
+  max-width: 45vw;
+}
+
+.amazon img{
+  padding-top: 1.5em;
+  width: 20vw;
+}
+
+.amazon a div {
+  color: white;
+  font-size: 4vw;
+  text-decoration: underline;
+  padding-top: 1.5em;
+}
+
+.amazon a:visited{
+  color: white;
+}
+
+.amazon a:link{
+  color: white;
+}
+
+.social {
+  width: 6vw;
+}
+
+.spacer {
+  margin: 3vw;
+}
+
+#theRealm {
+  font-size: 10vw;
+}
+
+#theFaiths {
+  font-size: 10vw;
+}
+
+/* THE CATEGORIES */
+
+#listStuff {
+  display: none;
+}
+
+#dirList li{
+  font-size: 6vw;
+  opacity: 0.80;
+  line-height: 1.6em;
+  background-color: rgba(255,255,255,0.15);
+}
+
+#dirList li:hover{
+  font-size: 6vw;
+  opacity: 1;
+  background-color: rgba(2,2,2,1);
+}
+
+#downA {
+  display: none;
+}
+
+/* Diff */
+
+#listStuff_F {
+  display: none;
+}
+
+#dirList_F li{
+  font-size: 6vw;
+  opacity: 0.80;
+  line-height: 1.6em;
+  background-color: rgba(255,255,255,0.15);
+}
+
+#dirList_F li:hover{
+  font-size: 6vw;
+  opacity: 1;
+  background-color: rgba(2,2,2,1);
+}
+
+#downAf {
+  display: none;
+}
+
+/* END Categories */
+
+.armsArmor {
+  font-size: 4vw;
+  transition: 0.5s;
+}
+
+.armsArmor:hover {
+  color: #a30505;
+  font-weight: 900;
+}
+
+.indexa {
+  letter-spacing: inherit;
+  transition: 0.5s;
+  font-size: 3vw;
+}
+
+.indexa:hover{
+  letter-spacing: 0.25em;
+}
+
+.r {
+  color: #a30505 !important;
+  font-weight: 900 !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (min-width: 600px) {
+
+.indexa {
+  font-size: 2vw;
+}
+	
+.armsArmor {
+  font-size: 3vw;
+}
+	
+  #dirList li{
+  font-size: 3vw;
+}
+
+#dirList li:hover{
+  font-size: 3vw;
+}
+
+#dirList_F li{
+  font-size: 3vw;
+}
+
+#dirList_F li:hover{
+  font-size: 3vw;
+}
+
+#theRealm {
+  font-size: 4vw;
+}
+
+#theFaiths {
+  font-size: 4vw;
+}
+
+}
