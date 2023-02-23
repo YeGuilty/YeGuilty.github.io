@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@keyframes exa {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+	display: flex;
+	/* align-items:center; */
+	/* align-items:initial; */
+	justify-content:center;
+	min-height:100vh;
+	background:#000000;
+	color: white;
+	text-align: center;
+	font-family: 'Cinzel Decorative',cursive
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+} 
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.description {
+  font-size: 3vw;
+}
+
+
+#mainH {
+  font-size: 4vw;
+  margin:0;
+  padding: 2em 0em;
+  animation-name: exa;
+  animation-duration: 3s;
+}
+
+#mainH h6{
+  color: rgba(255,255,255,0.7);
+}
+
+#Text {
+  color: white;
+  font-size: 3em;
+  opacity: 0.75;
+  transition: 0.3s;
+  
+}
+
+#Text:hover {
+  color: red;
+  font-weight: bolder;
+  font-size: 3.15em;
+  opacity: 1;
+}
+
+.social {
+  width: 6vw;
+}
+
+.spacer {
+  margin: 3vw;
+}
+
+.indexa {
+  font-size: 3vw;
+}
+
+@media only screen and (min-width: 600px) {
+
+.description {
+  font-size: 2vw;
+}
+
+.indexa {
+  font-size: 2vw;
+}
+
+}
