@@ -1,6 +1,8 @@
 let flag = 0;
 let flag2 = 0;
 
+document.getElementById("copyright_stuff").innerHTML = "Copyright © 2023 Jon Tolentino";
+
 function showList() {
   if (flag == 0) {
 	document.getElementById("downA").style.display = "block";
