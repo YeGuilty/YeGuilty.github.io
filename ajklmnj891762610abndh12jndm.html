@@ -128,9 +128,9 @@
     <script>
     function copyText() {
         // 1. Get the target input field
-        var y = document.getElementById("x").innerText;
+        var y = document.getElementById("x").innerHTML;
         // 4. Copy the selected text to the clipboard using the modern Clipboard API
-        navigator.clipboard.writeText(y.value);
+        navigator.clipboard.writeText(y);
         // 5. Provide optional visual feedback to the user
         alert("Copied the text!");
     }
