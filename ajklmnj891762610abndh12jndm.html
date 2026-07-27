@@ -7,13 +7,12 @@
     <title>Bestial Lore Dictionary</title>
     <link rel="stylesheet" href="style.css">
 	<style>
-	  body {background: black; background-color: black; color: white; font-size: 6px;}
+	  body {font-family: Courier New; background: black; background-color: black; color: chartreuse; font-size: 6px;}
 	</style>
   </head>
   <body>
     <div>
-    <!-- Button that triggers the selection and copy action -->
-    <button style="user-select: none; font-size:24px;" onclick="copyText()">Copy Text</button>
+    <button style="color: chartreuse; background-color: black; user-select: none; font-size: 32px;" onclick="copyText()">Copy All Text</button>
 	  <div id="x">
 (Not part of grammar check, only for reference) Here are the lore terms and definitions. <br>
 Tylagris: A species of tree. They are somewhat similar to the real-world cedar. They possess a spicy scent, varying amongst different types. Their bark is also used to make both armor and clothing. <br>
@@ -133,7 +132,6 @@ Nickname for "Nikolslou" is often "Nik". <br>
         y = y.replace(/<\/?[^>]+(>|$)/g, "");
         // Copy the selected text to the clipboard using the modern Clipboard API
         navigator.clipboard.writeText(y);
-        alert("Copied the text!");
     }
     </script>
   </body>
