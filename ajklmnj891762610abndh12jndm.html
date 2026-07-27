@@ -127,11 +127,13 @@
 	</div>
     <script>
     function copyText() {
-        // 1. Get the target input field
         var y = document.getElementById("x").innerHTML;
-        // 4. Copy the selected text to the clipboard using the modern Clipboard API
+		y = y.replace(/<br\s*\/?>/gi, " ");
+        // Strip any other remaining HTML tags if necessary
+        y = y.replace(/<\/?[^>]+(>|$)/g, "");
+        // Copy the selected text to the clipboard using the modern Clipboard API
         navigator.clipboard.writeText(y);
-        // 5. Provide optional visual feedback to the user
+        // Provide optional visual feedback to the user
         alert("Copied the text!");
     }
     </script>
