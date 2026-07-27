@@ -128,16 +128,16 @@
     <script>
     function copyText() {
         // 1. Get the target input field
-        var copyText = document.getElementById("x");
+        var y = document.getElementById("x");
 
         // 2. Select the text inside the input field
-        copyText.select();
+        y.select();
         
         // 3. Set selection range for mobile device compatibility
-        copyText.setSelectionRange(0, 99999);
+        y.setSelectionRange(0, 99999);
 
         // 4. Copy the selected text to the clipboard using the modern Clipboard API
-        navigator.clipboard.writeText(copyText.value);
+        navigator.clipboard.writeText(y.value);
 
         // 5. Provide optional visual feedback to the user
         alert("Copied the text!");
