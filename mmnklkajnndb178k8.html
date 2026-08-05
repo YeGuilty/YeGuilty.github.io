@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bestial Lore Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+	  body {font-family: 'Courier New', monospace; background: black; background-color: black; color: chartreuse; font-size: 6px;}
+	</style>
+  </head>
+  <body>
+    <div>
+    <button style="font-family: 'Courier New', monospace; color: cyan; background-color: black; user-select: none; font-size: 250px;" onclick="copyText()">Copy All Text</button>
+	  <div style="font-family: 'Courier New', monospace;" id="x">
+(Not part of grammar check, only for reference) Here is some more basic lore. <br>
+      House Vylladesi: One of the three greater houses of Vesca.<br>
+
+	  </div>
+	</div>
+    <script>
+    function copyText() {
+        var y = document.getElementById("x").innerHTML;
+		y = y.replace(/<br\s*\/?>/gi, " ");
+        // Strip any other remaining HTML tags if necessary
+        y = y.replace(/<\/?[^>]+(>|$)/g, "");
+        // Copy the selected text to the clipboard using the modern Clipboard API
+        navigator.clipboard.writeText(y);
+    }
+    </script>
+  </body>
+</html>
