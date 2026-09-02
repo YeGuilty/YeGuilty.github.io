@@ -12,7 +12,7 @@
   </head>
   <body>
     <div>
-    <button style="font-family: 'Courier New', monospace; color: chartreuse; background-color: black; user-select: none; font-size: 100px;" onclick="copyText()">Copy Part 1 </button>
+    <button style="font-family: 'Courier New', monospace; color: gold; background-color: black; user-select: none; font-size: 100px;" onclick="copyText()">Copy Part 1 </button>
 	<button style="font-family: 'Courier New', monospace; color: cyan; background-color: black; user-select: none; font-size: 100px;" onclick="copyText2()">Copy Part 2</button>
 	<button style="font-family: 'Courier New', monospace; color: red; background-color: black; user-select: none; font-size: 100px;" onclick="copyText3()">Copy Part 3</button>
 		
@@ -197,12 +197,12 @@ A character named "Verrano Vylladesi" will sometimes be referred to as "Vern" fo
     }
 
 	function copyText2() {
-        var v = document.getElementById("z").innerHTML;
-		v = v.replace(/<br\s*\/?>/gi, " ");
+        var n = document.getElementById("z").innerHTML;
+		n = n.replace(/<br\s*\/?>/gi, " ");
         // Strip any other remaining HTML tags if necessary
-        v = v.replace(/<\/?[^>]+(>|$)/g, "");
+        n = n.replace(/<\/?[^>]+(>|$)/g, "");
         // Copy the selected text to the clipboard using the modern Clipboard API
-        navigator.clipboard.writeText(v);
+        navigator.clipboard.writeText(n);
     }
     </script>
   </body>
